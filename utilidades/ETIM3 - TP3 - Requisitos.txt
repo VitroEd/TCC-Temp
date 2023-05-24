@@ -1,0 +1,27 @@
+Sistema Web, requisitos:
+
+Parte 1:
+01) Criar o banco de dados do blog (está na rede)
+02) Necessário ter um CRUD completo para uma notícia
+03) Todo o projeto precisa estar em MVC
+04) Obrigatória a formatação com Bootstrap, CSS3 ou ambos
+
+Parte 2:
+05) Desenvolver paralelamente ao blog, um sistema de upload
+06) O upload deve permitir múltiplos arquivos
+07) Ao enviar um arquivo, seu nome original deve ser salvo no MySQL
+08) O arquivo deve ser enviado ao diretório com um nome randômico
+09) O nome randômico deve ser salvo no MySQL
+10) O nome randômico deve ser gerado com md5() e uniqid()
+11) O sistema deve permitir somente upload de arquivos .PNG (PATHINFO)
+12) Ao excluir o orquivo, com unlink(), o dado também deve ser exclúido do MySQL
+
+Parte 3:
+13) Incorporar todo o sistema de upload ao blog MVC
+14) Ele deverá rodar no sistema de notícias, permitindo enviar imagens
+
+Parte 4:
+15) Desenvolver paralelamente ao blog, um sistema de login
+16) O sistema de login deve utilizar e-mail e senha no MySQL
+17) A senha deve ser salva em md5
+18) O sistema de login deve ser incorporado ao blog
